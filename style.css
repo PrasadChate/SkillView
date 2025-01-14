@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/scc2?family==Besley:ital,wght@0,400;1,500&display=swap");
+/* global veriables */
+:root {
+  --main: #ff1000;
+}
+.btn {
+  width: 300px;
+  border: 1px solid var(--main);
+  color: var(--main);
+  font-weight: bold !important;
+  border-radius: 10px;
+}
+.btn:hover {
+  background: var(--main);
+  color: #fff !important;
+  letter-spacing: 2px;
+  transition: 0.3s;
+}
+* {
+  font-family: "Besley", serif;
+  transition: 0.2s;
+}
+
+*::selection {
+  background: var(--main);
+  color: #000;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--main);
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+.content {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.content h6 {
+  font-weight: bold;
+  font-size: 2.2em;
+  color: var(--main);
+}
+
+.content span {
+  font-weight: 700;
+  font-size: 2 em;
+}
+/* Navbar section starts */
+.navbar {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid white;
+}
+.navbar-brand {
+  font-weight: bold;
+  color: #fff !important ;
+  font-size: 2em;
+  padding: 10px 4%;
+}
+.navbar-brand span {
+  color: var(--main);
+  font-size: 2.1em;
+  font-weight: 800;
+}
+.navbar-nav {
+  margin-top: 30px;
+}
+.nav-link {
+  font-weight: 500;
+  color: #fff !important;
+  margin-left: 5px;
+}
+.nav-link:hover {
+  background: var(--main);
+  border-radius: 10px;
+  font-weight: bold !important;
+  padding: 10px;
+}
+/* navbar section ends */
+
+/* home section starts */
+.Home {
+  position: relative;
+}
+.Home video {
+  height: 100%;
+  width: 100%;
+}
+.Home .vidOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  opacity: 0.9;
+}
+.Home .vidContent {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+.Home .vidContent h6 {
+  font-size: 3 em;
+  margin: 10px auto;
+  font-weight: 500;
+}
+.Home .vidContent h6 span {
+  font-weight: 800;
+  color: var(--main);
+}
+/* home section ends */
+
+/* about us section starts */
+.about {
+  margin: 200px auto;
+}
+.about .custom {
+  margin-top: 20px;
+}
+.about .custom h6 {
+  font-weight: 500;
+  font-size: 2em;
+}
+.about .custom h6 span {
+  color: var(--main);
+  font-size: 1.2em;
+  font-weight: 700;
+}
+/* about us section ends */
