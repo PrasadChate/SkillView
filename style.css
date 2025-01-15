@@ -325,7 +325,19 @@ footer a {
   color: var(--main) !important;
 }
 
-/* infra horel page starts */
-
-/* infra hotel page ends */
+/* infra hostel page starts */
+.infraHostelHeader {
+  margin-top: 200px;
+}
+.infraHostelHeader .col-sm-5 img {
+  height: 500px !important;
+  object-fit: cover;
+  box-shadow: var(--box_shadow);
+}
+.infraHostelHeader .col-sm-6 h6 {
+  font-weight: bold;
+  font-size: 40px;
+  color: var(--main);
+}
+/* infra hostel page ends */
 /* -------------------Infra PAGE Ends------------ */
